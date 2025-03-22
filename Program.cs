@@ -4,7 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            SayaTubeVideo vid = new SayaTubeVideo("mantap jiwa");
+            vid.IncreasePlayCount(2);
+            vid.PrintVideoDetails();
         }
     }
 }
